@@ -105,7 +105,7 @@ setTimeout(function() {
 })();
 
 (() => {
-    var maghrib = "17:56";
+    var maghrib = "17:55";
     document.getElementById("maghrib").innerHTML = maghrib;
 })();
 (() => {
