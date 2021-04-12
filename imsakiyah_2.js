@@ -1,4 +1,4 @@
-let a = "04:33:00";
+let a = "04:28:00";
 let date1 = new Date();
 date1.setHours(a.split(":")[0]);
 date1.setMinutes(a.split(":")[1]);
@@ -8,7 +8,7 @@ setTimeout(function() {
     $('.signal1').addClass('show');
 }, r);
 
-let b = "04:43:00";
+let b = "04:38:00";
 let date2 = new Date();
 date2.setHours(b.split(":")[0]);
 date2.setMinutes(b.split(":")[1]);
@@ -20,7 +20,7 @@ setTimeout(function() {
 
 }, s);
 
-let c = "04:57:00";
+let c = "04:58:00";
 let date3 = new Date();
 date3.setHours(c.split(":")[0]);
 date3.setMinutes(c.split(":")[1]);
@@ -32,7 +32,7 @@ setTimeout(function() {
 
 }, t);
 
-let d = "12:03:00";
+let d = "11:57:00";
 let date4 = new Date();
 date4.setHours(d.split(":")[0]);
 date4.setMinutes(d.split(":")[1]);
@@ -55,7 +55,7 @@ setTimeout(function() {
     $('.signal4.show').removeClass('show');
 }, v);
 
-let f = "15:10:00";
+let f = "15:14:00";
 let date6 = new Date();
 date6.setHours(f.split(":")[0]);
 date6.setMinutes(f.split(":")[1]);
@@ -77,7 +77,7 @@ setTimeout(function() {
     $('.signal6.show').removeClass('show');
 }, x);
 
-let h = "18:11:00";
+let h = "17:56:00";
 let date8 = new Date();
 date8.setHours(h.split(":")[0]);
 date8.setMinutes(h.split(":")[1]);
@@ -88,7 +88,7 @@ setTimeout(function() {
     $('.signal7.show').removeClass('show');
 }, y);
 
-let i = "18:40:00";
+let i = "17:40:00";
 let date9 = new Date();
 date9.setHours(i.split(":")[0]);
 date9.setMinutes(i.split(":")[1]);
@@ -99,7 +99,7 @@ setTimeout(function() {
     $('.signal8.show').removeClass('show');
 }, z);
 
-let j = "19:20:00";
+let j = "19:05:00";
 let date10 = new Date();
 date10.setHours(j.split(":")[0]);
 date10.setMinutes(j.split(":")[1]);
@@ -132,7 +132,7 @@ setTimeout(function() {
     $('.signal10.show').removeClass('show');
 }, q);
 
-let m = "04:32:59";
+let m = "04:27:59";
 let date13 = new Date();
 date13.setHours(m.split(":")[0]);
 date13.setMinutes(m.split(":")[1]);
