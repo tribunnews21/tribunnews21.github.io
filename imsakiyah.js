@@ -96,7 +96,7 @@ setTimeout(function() {
     document.getElementById("subuh").innerHTML = subuh;
 })();
 (() => {
-    var dzuhur = "11:54";
+    var dzuhur = "11:57";
     document.getElementById("dzuhur").innerHTML = dzuhur;
 })();
 (() => {
@@ -105,7 +105,7 @@ setTimeout(function() {
 })();
 
 (() => {
-    var maghrib = "17:55";
+    var maghrib = "17:56";
     document.getElementById("maghrib").innerHTML = maghrib;
 })();
 (() => {
