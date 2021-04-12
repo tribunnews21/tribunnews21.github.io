@@ -1,4 +1,4 @@
-let a = "04:15:00";
+let a = "04:01:00";
 let date1 = new Date();
 date1.setHours(a.split(":")[0]);
 date1.setMinutes(a.split(":")[1]);
@@ -8,7 +8,7 @@ setTimeout(function() {
     $('.signal1').addClass('show');
 }, show1);
 
-let b = "04:28:00";
+let b = "04:25:00";
 let date2 = new Date();
 date2.setHours(b.split(":")[0]);
 date2.setMinutes(b.split(":")[1]);
@@ -20,7 +20,7 @@ setTimeout(function() {
 
 }, show2);
 
-let c = "11:44:00";
+let c = "11:14:00";
 let date3 = new Date();
 date3.setHours(c.split(":")[0]);
 date3.setMinutes(c.split(":")[1]);
@@ -32,7 +32,7 @@ setTimeout(function() {
 
 }, show3);
 
-let d = "15:04:00";
+let d = "14:40:00";
 let date4 = new Date();
 date4.setHours(d.split(":")[0]);
 date4.setMinutes(d.split(":")[1]);
@@ -44,7 +44,7 @@ setTimeout(function() {
 
 }, show4);
 
-let e = "17:46:00";
+let e = "17:16:00";
 let date5 = new Date();
 date5.setHours(e.split(":")[0]);
 date5.setMinutes(e.split(":")[1]);
@@ -55,7 +55,7 @@ setTimeout(function() {
     $('.signal4.show').removeClass('show');
 }, show5);
 
-let f = "18:50:00";
+let f = "18:40:00";
 let date6 = new Date();
 date6.setHours(f.split(":")[0]);
 date6.setMinutes(f.split(":")[1]);
