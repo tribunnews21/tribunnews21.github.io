@@ -77,15 +77,15 @@ setTimeout(function() {
     $('.signal6.show').removeClass('show');
 }, show7);
 
-let h = "04:27:59";
-let date8 = new Date();
-date8.setHours(h.split(":")[0]);
-date8.setMinutes(h.split(":")[1]);
-date8.setSeconds(h.split(":")[2]);
-let show8 = date8 - new Date();
-setTimeout(function() {
-    $('.signal7.show').removeClass('show');
-}, show8);
+// let h = "04:27:59";
+// let date8 = new Date();
+// date8.setHours(h.split(":")[0]);
+// date8.setMinutes(h.split(":")[1]);
+// date8.setSeconds(h.split(":")[2]);
+// let show8 = date8 - new Date();
+// setTimeout(function() {
+//     $('.signal7.show').removeClass('show');
+// }, show8);
 
 (() => {
     var imsak = "04:28";
