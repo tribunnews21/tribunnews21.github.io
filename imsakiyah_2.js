@@ -121,16 +121,16 @@ setTimeout(function() {
     $('.signal10.show').removeClass('show');
 }, p);
 
-// let l = "00:00:00";
-// let date12 = new Date();
-// date12.setHours(l.split(":")[0]);
-// date12.setMinutes(l.split(":")[1]);
-// date12.setSeconds(l.split(":")[2]);
-// let q = date12 - new Date();
-// setTimeout(function() {
-//     $('.signal11').addClass('show');
-//     $('.signal10.show').removeClass('show');
-// }, q);
+let l = "00:00:00";
+let date12 = new Date();
+date12.setHours(l.split(":")[0]);
+date12.setMinutes(l.split(":")[1]);
+date12.setSeconds(l.split(":")[2]);
+let q = date12 - new Date();
+setTimeout(function() {
+    $('.signal11').addClass('show');
+    $('.signal10.show').removeClass('show');
+}, q);
 
 let m = "04:27:59";
 let date13 = new Date();
