@@ -132,12 +132,12 @@ setTimeout(function() {
     $('.signal10.show').removeClass('show');
 }, q);
 
-// let m = "04:27:59";
-// let date13 = new Date();
-// date13.setHours(m.split(":")[0]);
-// date13.setMinutes(m.split(":")[1]);
-// date13.setSeconds(m.split(":")[2]);
-// let qq = date13 - new Date();
-// setTimeout(function() {
-//     $('.signal11.show').removeClass('show');
-// }, qq);
+let m = "04:27:59";
+let date13 = new Date();
+date13.setHours(m.split(":")[0]);
+date13.setMinutes(m.split(":")[1]);
+date13.setSeconds(m.split(":")[2]);
+let qq = date13 - new Date();
+setTimeout(function() {
+    $('.signal11.show').removeClass('show');
+}, qq);
