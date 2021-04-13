@@ -32,7 +32,7 @@ setTimeout(function() {
 
 }, t);
 
-let d = "11:57:00";
+let d = "11:56:00";
 let date4 = new Date();
 date4.setHours(d.split(":")[0]);
 date4.setMinutes(d.split(":")[1]);
@@ -77,7 +77,7 @@ setTimeout(function() {
     $('.signal6.show').removeClass('show');
 }, x);
 
-let h = "17:56:00";
+let h = "17:55:00";
 let date8 = new Date();
 date8.setHours(h.split(":")[0]);
 date8.setMinutes(h.split(":")[1]);
