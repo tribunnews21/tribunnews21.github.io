@@ -77,7 +77,7 @@ setTimeout(function() {
     $('.signal6.show').removeClass('show');
 }, x);
 
-let h = "17:55:00";
+let h = "17:54:00";
 let date8 = new Date();
 date8.setHours(h.split(":")[0]);
 date8.setMinutes(h.split(":")[1]);
@@ -99,7 +99,7 @@ setTimeout(function() {
     $('.signal8.show').removeClass('show');
 }, z);
 
-let j = "19:04:00";
+let j = "19:03:00";
 let date10 = new Date();
 date10.setHours(j.split(":")[0]);
 date10.setMinutes(j.split(":")[1]);
