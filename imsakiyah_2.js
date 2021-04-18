@@ -132,7 +132,7 @@ setTimeout(function() {
     $('.signal10.show').removeClass('show');
 }, q);
 
-let m = "04:27:59";
+let m = "04:26:59";
 let date13 = new Date();
 date13.setHours(m.split(":")[0]);
 date13.setMinutes(m.split(":")[1]);
