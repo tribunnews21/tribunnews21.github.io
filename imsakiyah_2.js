@@ -1,4 +1,4 @@
-let a = "04:28:00";
+let a = "04:27:00";
 let date1 = new Date();
 date1.setHours(a.split(":")[0]);
 date1.setMinutes(a.split(":")[1]);
@@ -8,7 +8,7 @@ setTimeout(function() {
     $('.signal1').addClass('show');
 }, r);
 
-let b = "04:38:00";
+let b = "04:37:00";
 let date2 = new Date();
 date2.setHours(b.split(":")[0]);
 date2.setMinutes(b.split(":")[1]);
@@ -32,7 +32,7 @@ setTimeout(function() {
 
 }, t);
 
-let d = "11:56:00";
+let d = "11:55:00";
 let date4 = new Date();
 date4.setHours(d.split(":")[0]);
 date4.setMinutes(d.split(":")[1]);
@@ -77,7 +77,7 @@ setTimeout(function() {
     $('.signal6.show').removeClass('show');
 }, x);
 
-let h = "17:54:00";
+let h = "17:53:00";
 let date8 = new Date();
 date8.setHours(h.split(":")[0]);
 date8.setMinutes(h.split(":")[1]);
@@ -88,7 +88,7 @@ setTimeout(function() {
     $('.signal7.show').removeClass('show');
 }, y);
 
-let i = "18:30:00";
+let i = "18:20:00";
 let date9 = new Date();
 date9.setHours(i.split(":")[0]);
 date9.setMinutes(i.split(":")[1]);
@@ -110,7 +110,7 @@ setTimeout(function() {
     $('.signal9.show').removeClass('show');
 }, o);
 
-let k = "19:40:0";
+let k = "19:30:0";
 let date11 = new Date();
 date11.setHours(k.split(":")[0]);
 date11.setMinutes(k.split(":")[1]);
