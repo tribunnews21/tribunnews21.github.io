@@ -99,7 +99,7 @@ setTimeout(function() {
     $('.signal8.show').removeClass('show');
 }, z);
 
-let j = "19:03:00";
+let j = "19:02:00";
 let date10 = new Date();
 date10.setHours(j.split(":")[0]);
 date10.setMinutes(j.split(":")[1]);
