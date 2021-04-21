@@ -77,7 +77,7 @@ setTimeout(function() {
     $('.signal6.show').removeClass('show');
 }, x);
 
-let h = "17:53:00";
+let h = "17:52:00";
 let date8 = new Date();
 date8.setHours(h.split(":")[0]);
 date8.setMinutes(h.split(":")[1]);
