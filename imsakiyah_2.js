@@ -32,7 +32,7 @@ setTimeout(function() {
 
 }, t);
 
-let d = "11:55:00";
+let d = "11:54:00";
 let date4 = new Date();
 date4.setHours(d.split(":")[0]);
 date4.setMinutes(d.split(":")[1]);
