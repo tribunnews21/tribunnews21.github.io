@@ -1,4 +1,4 @@
-var ramadanDate = 16;
+var ramadanDate = 17;
 
         const jadwal = [{
             "tanggal": "Selasa, 13\/04\/2021",
