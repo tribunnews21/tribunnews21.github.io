@@ -32,7 +32,7 @@ setTimeout(function() {
 
 }, t);
 
-let d = "11:54:00";
+let d = "11:53:00";
 let date4 = new Date();
 date4.setHours(d.split(":")[0]);
 date4.setMinutes(d.split(":")[1]);
@@ -99,7 +99,7 @@ setTimeout(function() {
     $('.signal8.show').removeClass('show');
 }, z);
 
-let j = "19:01:00";
+let j = "19:00:00";
 let date10 = new Date();
 date10.setHours(j.split(":")[0]);
 date10.setMinutes(j.split(":")[1]);
