@@ -110,7 +110,7 @@ setTimeout(function() {
     $('.signal9.show').removeClass('show');
 }, o);
 
-let k = "19:30:0";
+let k = "19:30:00";
 let date11 = new Date();
 date11.setHours(k.split(":")[0]);
 date11.setMinutes(k.split(":")[1]);
