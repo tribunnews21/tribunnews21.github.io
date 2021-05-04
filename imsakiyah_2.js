@@ -55,7 +55,7 @@ setTimeout(function() {
     $('.signal4.show').removeClass('show');
 }, v);
 
-let f = "15:14:00";
+let f = "15:13:00";
 let date6 = new Date();
 date6.setHours(f.split(":")[0]);
 date6.setMinutes(f.split(":")[1]);
