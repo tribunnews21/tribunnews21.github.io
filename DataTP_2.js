@@ -5,7 +5,7 @@ function pilih_kota() {
     if (kota == 1) {
         // geo = [-7.0247246, 110.3470243, 12];
         // timezone = +7
-        var ramadanDate = 26;
+        var ramadanDate = 27;
 
         const jadwal = [{
             "tanggal": "Selasa, 13\/04\/2021",
@@ -357,7 +357,7 @@ function pilih_kota() {
     } else if (kota == 2) {
         // geo = [-6.9034443, 107.5731166, 12];
         // timezone = +7
-        var ramadanDate = 26;
+        var ramadanDate = 27;
 
         const jadwal = [{
             "tanggal": "Selasa, 13\/04\/2021",
@@ -708,7 +708,7 @@ function pilih_kota() {
     } else if (kota == 3) {
         // geo = [-7.2756141, 112.6426428, 12];
         // timezone = +7
-        var ramadanDate = 26;
+        var ramadanDate = 27;
 
         const jadwal = [{
             "tanggal": "Selasa, 13\/04\/2021",
@@ -1059,7 +1059,7 @@ function pilih_kota() {
     } else if (kota == 4) {
         // geo = [-7.803249, 110.3398253, 13];
         // timezone = +7
-        var ramadanDate = 26;
+        var ramadanDate = 27;
 
         const jadwal = [{
             "tanggal": "Selasa, 13\/04\/2021",
@@ -1410,7 +1410,7 @@ function pilih_kota() {
     } else if (kota == 5) {
         // geo = [-6.1333, 106.75, 10];
         // timezone = +7
-        var ramadanDate = 26;
+        var ramadanDate = 27;
 
         const jadwal = [{
             "tanggal": "Selasa, 13\/04\/2021",
